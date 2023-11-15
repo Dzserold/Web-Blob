@@ -1,0 +1,98 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(720deg)
+  }
+}
+
+.nav-menu {
+  transform: translateY(-60px);
+  transition: 0.8s all ease-in;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  width: 98%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#hamburger {
+  display: inline-block;
+  z-index: 5;
+}
+
+.spin {
+  animation: 0.7s rotation ease-out;
+}
+
+.active-hamby {
+  transform: translateY(100px);
+  opacity: 1;
+  display: flex;
+}
+
+.active-hamby-nav {
+  padding-bottom: 80px;
+}
+
+#showcase {
+  flex-direction: column;
+}
+
+.blob {
+  z-index: -1;
+  width: 400px;
+}
+
+.intro-comp {
+  flex-direction: column;
+}
+
+.intro-comp2 {
+  flex-direction: column-reverse;
+}
+
+.side-img {
+  padding: 150px 0;
+}
+
+.cards {
+  grid-template-columns: auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .blob {
+    width: 320px;
+  }
+
+  .card {
+    padding: 0 30px 50px;
+  }
+}
+
+/* Contact us */
+
+#contact-us {
+  flex-direction: column;
+}
+
+#contact-us>.vl {
+  height: 0;
+}
+
+.contact-form {
+  width: 90%;
+}
+
+.hl {
+  width: 17vw;
+}
+
+.privacy-script {
+  padding: 100px 40px;
+}
