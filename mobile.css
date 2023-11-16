@@ -43,6 +43,11 @@
   flex-direction: column;
 }
 
+#cards-comp>.heading {
+  text-align: center;
+  margin: 0 30px 30px;
+}
+
 .blob {
   z-index: -1;
   width: 400px;

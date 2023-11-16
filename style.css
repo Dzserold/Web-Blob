@@ -208,6 +208,7 @@ a {
   display: none;
 }
 
+
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
   .blob {
     display: none;
@@ -223,6 +224,11 @@ a {
       width: 400px;
       z-index: -1;
     }
+
+    .showcase-txt {
+      margin: 150px 0 0 30px
+    }
+
   }
 }
 
